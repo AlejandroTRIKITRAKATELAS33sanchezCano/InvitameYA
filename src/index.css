@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+:root {
+    --mainColor: #46B3EB;
+    --tertiaryColor: #8d818c;
+    --secondaryColor: #083D77;
+    --textColor: #f7fff7;
+}
+
+/*GENERAL*/
+
+
+/*MAIN HEADER*/
+
+.Main_Header {
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+
+    border-bottom: dashed var(--secondaryColor);
+}
+
+.Main_nav a {
+    z-index: 99;
+    margin: 0 1rem;
+    color: var(--textColor);
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.Main_nav a:hover {
+    color: var(--secondaryColor);
+}
+
+.Main_Header .nav-btn {
+    z-index: 99;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+.Main_Header div,
+.Main_nav {
+    z-index: 99;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+
+.Logo span {
+    color: var(--secondaryColor);
+}
+
+/*Carrousel*/
+
+.Carrousel_IMG {
+    height: 70vh;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-container {
+    margin-top: 2rem;
+}
+
+/*¿Porque Elegir InvitameYA?*/
+
+.PorqueElegir {
+
+    border-top: dashed var(--secondaryColor);
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: var(--mainColor);
+
+}
+
+.PorqueElegir h2 {
+    width: 100%;
+    text-align: center;
+    color: var(--textColor);
+    font-size: 4rem;
+
+    margin-top: 3rem;
+}
+
+.PorqueElegir h2 span {
+    color: var(--secondaryColor);
+}
+
+.itemsMejoras {
+
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.mejoras {
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 25%;
+}
+
+.mejoras svg {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.mejoras h4 {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+
+    color: var(--textColor);
+    font-size: 2rem;
+}
+
+/*Muestras Generales*/
+
+.MuestrasGenerales {
+    margin-top: 3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    width: 100%;
+}
+
+.MuestrasGenerales h2 {
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+
+    color: var(--secondaryColor);
+}
+
+.ContenedorMuestras {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Evento {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    height: 20rem;
+}
+
+.imagenEvento {
+    height: 20rem;
+    width: 40%;
+}
+
+.imagenEvento img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+.desEvento {
+    font-size: medium;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.desEvento p {
+    text-align: justify;
+}
+
+.desEvento h4 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.LinkEventos{
+    text-decoration:underline;
+    color: var(--secondaryColor)
+}
+
+.imagenEvento{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.imagenEvento > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(209, 56%, 34%, 0.757);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagenEvento:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/*Paquetes*/
+
+.PaquetesGeneral{
+    margin-top: 4rem;
+}
+
+.Paquetes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*RESPONSIVE HEADER*/
+
+@media only screen and (max-width: 1024px) {
+    .Main_Header .nav-btn {
+        z-index: 99;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .Main_Header nav {
+        z-index: 100;
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+    }
+
+    .Main_Header .responsive_nav {
+        z-index: 100;
+        transform: translateY(100vh);
+    }
+
+    .Main_nav .nav-close-btn {
+        z-index: 100;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .Main_nav a {
+        z-index: 1000;
+        font-size: 1.5rem;
+    }
+
+    .mejoras {
+
+        width: 50%;
+    }
+
+    .Evento{
+        width: 100%;
+        height: auto;
+    }
+
+    .imagenEvento{
+        margin: auto;
+    }
+
+    .desEvento{
+        margin: auto;
+    }
+
+}
