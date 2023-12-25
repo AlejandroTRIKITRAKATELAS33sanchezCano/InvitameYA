@@ -273,15 +273,24 @@
 /*Paquetes*/
 
 .PaquetesGeneral{
+
+    text-align: center;
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
+}
+
+.PaquetesGeneral h2{
+    font-size: 3rem;
+    color: var(--secondaryColor);
 }
 
 .Paquetes{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 4rem;
+    padding: 0 2rem;
     width: 100%;
 }
 
@@ -289,7 +298,7 @@
 
 .PaqueteBasico{
 
-    width: 25%;
+    width: 20%;
     border: dotted var(--secondaryColor) 5px;
     
     display: flex;
@@ -337,6 +346,30 @@
     text-decoration:underline;
     text-decoration-color: var(--secondaryColor);
     margin-bottom: 30px;
+}
+
+/*¿Que tienen?*/
+
+.Quetienen table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.Quetienen th, .Quetienen td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.Quetienen th {
+    background-color: #f2f2f2;
+}
+
+.checkmark::before {
+    content: '\2713'; /* Código Unicode para el símbolo de checkmark */
+    color: #4CAF50; /* Color verde */
+    font-size: 18px;
 }
 
 /*RESPONSIVE HEADER*/
@@ -397,6 +430,28 @@
 
     .desEvento{
         margin: auto;
+    }
+
+    .Paquetes{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .PaqueteBasico{
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+
+    .PaqueteBasico b{
+        font-size: 1.3rem;
+    }
+
+    .PaqueteBasico s{
+        font-size: 2rem;
+    }
+    
+    .PaqueteBasico h2{
+        font-size: 4rem;
     }
 
 }
