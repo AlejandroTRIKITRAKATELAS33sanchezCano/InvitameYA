@@ -842,4 +842,11 @@ const tiposEventos = [
     }
 ]
 
-export { mejoras, tiposEventos }
+const paquetes =[{
+    nombre: '',
+    precioAnterior: '',
+    precio: '',
+    linkMuestras: ''
+}]
+
+export { mejoras, tiposEventos, paquetes}
