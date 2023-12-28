@@ -844,27 +844,27 @@ const tiposEventos = [
 
 const paquetes = [{
     nombre: 'Estandar',
-    descripcion: 'Imagen Estatica no Interactiva',
+    descripcion: 'Imagen Estatica No Interactiva',
     precioAnterior: '80',
-    precio: '50',
+    precio: '49',
     linkMuestras: ''
 }, {
     nombre: 'Plus',
-    descripcion: 'PDF Interactivo ó Presentacion',
+    descripcion: 'PDF Interactivo o Presentación',
     precioAnterior: '150',
-    precio: '100',
+    precio: '99',
     linkMuestras: ''
 }, {
     nombre: 'Premium',
     descripcion: 'Video Animado Con Fotos',
     precioAnterior: '250',
-    precio: '200',
+    precio: '199',
     linkMuestras: ''
 }, {
     nombre: 'Deluxe',
     descripcion: 'Pagína Web Interactiva Personalizada',
-    precioAnterior: '800',
-    precio: '650',
+    precioAnterior: '1000',
+    precio: '799',
     linkMuestras: ''
 }]
 

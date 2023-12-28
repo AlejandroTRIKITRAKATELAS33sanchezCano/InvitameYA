@@ -11,28 +11,127 @@ const Paquetes = () => {
                 <table>
                     <thead>
                         <tr>
-                            <th>Invitación</th>
-                            <th>JPG o PNG</th>
-                            <th>PDF</th>
-                            <th>Video</th>
-                            <th>Web</th>
+                            <th></th>
+                            <th>Basico</th>
+                            <th>Plus</th>
+                            <th>Premium</th>
+                            <th>Deluxe</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Paquete 1</td>
-                            <td><span class="checkmark"></span></td>
-                            <td></td>
-                            <td><span class="checkmark"></span></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Paquete 2</td>
-                            <td></td>
-                            <td><span class="checkmark"></span></td>
-                            <td></td>
-                            <td><span class="checkmark"></span></td>
-                        </tr>
+                    <tr>
+                <td>Logo</td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Envios Ilimitados</td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Ubicación con GPS</td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Calendario</td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Itinerario</td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Hospedaje</td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>DressCode</td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Mesa de regalos</td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Link A redes Sociales</td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Musíca</td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Video Presentación</td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Galería de fotos</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Personalizada</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            
+            <tr>
+                <td>Confirmación de asitencia</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Cuenta Regresiva</td>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+                <td>Trivia</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="checkmark"></span></td>
+            </tr>
                     </tbody>
                 </table>
             </div>

@@ -350,10 +350,18 @@
 
 /*¿Que tienen?*/
 
+.Quetienen{
+    padding: 0 30px;
+}
+
 .Quetienen table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+}
+
+.Quetienen thead tr th{
+    background-color: var(--mainColor);
 }
 
 .Quetienen th, .Quetienen td {
