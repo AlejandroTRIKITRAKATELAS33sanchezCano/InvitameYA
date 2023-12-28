@@ -15,10 +15,11 @@ function Header() {
         <header className="Main_Header">
             <h3 className="Logo">Invitame<span>YA</span></h3>
             <nav className="Main_nav" ref={navRef}>
+                {/*
                 <a href="/#">Home</a>
                 <a href="/#">My work</a>
                 <a href="/#">Blog</a>
-                <a href="/#">About me</a>
+                <a href="/#">About me</a>*/}
                 <button
                     className="nav-btn nav-close-btn"
                     onClick={showHeader}>
